@@ -401,6 +401,10 @@ ul, li {
 
 .movies {
   flex: 5 0 75%; }
+  .movies__list:after {
+    content: "";
+    display: table;
+    clear: both; }
   .movies__item {
     float: left;
     width: 17%;
@@ -428,7 +432,8 @@ ul, li {
     text-align: center;
     text-decoration: none;
     color: #d8d8d8;
-    display: block; }
+    display: block;
+    outline: 0; }
   .movies__container {
     position: relative;
     display: block;
@@ -478,7 +483,9 @@ ul, li {
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%) translateY(1rem);
-    transition: all 0.2s cubic-bezier(0.71, 0, 0.31, 1) 0.3s; }
+    transition: all 0.2s cubic-bezier(0.71, 0, 0.31, 1) 0.3s;
+    width: 100%;
+    text-align: center; }
   .movies__img {
     width: 100%;
     display: block;
