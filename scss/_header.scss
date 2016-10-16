@@ -1,0 +1,35 @@
+$purple: #650098;
+
+.header {
+    background: $purple;
+    color: $white;
+    padding:2rem;
+    text-align: center;
+    @include clearfix();
+    .nav__toggle {
+        padding: .5rem;
+        float: left;
+        cursor: pointer;
+    }
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        &--nowtv {
+                width: 12rem;
+
+        }
+    }
+    .nav {
+        padding: .5rem;
+        float: right;
+        .list {
+
+            &__item {
+                cursor: pointer;
+                margin-left: 2rem;
+                display: inline-block;
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.main {
+	padding: 3rem 5rem;
+	color: $white;
+	display: flex;
+	flex-flow: row;
+	@include clearfix;
+}
+
+.movie-search {
+	padding: 3rem 1rem 3rem 4rem;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	display: none;
+	.logo {
+		flex: 1 0 20%;
+		&--sky-cinema {
+			max-width: 20rem;
+		}
+	}
+	&__field {
+		flex: 2 0 30%;
+		background: none;
+		border: 2px solid $white;
+		border-radius: 20px;;
+		padding: 1rem 2rem;
+		outline: 0;
+		color: $white;
+	}
+	.sort-by {
+		margin-left: 2rem;
+		margin-top: .2rem;
+		&__container {
+			float: right;
+			width: 35rem;
+		}
+		&__title {
+		float: left;
+		margin-right: 1rem;
+		margin-top: .7rem;
+		}
+		.list {
+			@include clearfix;
+			&__item {
+				float: left;
+				border: 1px solid $white;
+				padding: .7rem;
+			}
+		}
+	}
+	&__results {
+		flex: 1 0 100%;
+		clear: both;
+	}
+
+}
+$grey: #d8d8d8;
+.sidebar {
+	flex: 1 0 25%;
+	max-width: 30rem;
+	.list {
+		color: $grey;
+		&--genre {
+
+		}
+		&__item {
+			margin-bottom: 1.5rem;
+			width: 70%;
+			min-width: 15rem;
+			&--all {
+				padding-bottom: 3rem;
+				margin-bottom: 3rem;
+				border-bottom: 1px solid $grey;
+				width: 12rem;
+			}
+			&--active {
+				i {
+					margin-top: .4rem;
+					float: right;
+					font-size: 1.2rem;
+				}
+			}
+		}
+	}
+	.list--certs {
+		margin-top: 5rem;
+		padding-top: 2rem;
+		border-top: 1px solid $grey;
+		width: 12rem;
+		.list__item {
+			display: inline-block;
+			margin-right: 1rem;
+		}
+	}
+}
+
+.movies {
+	&__list {
+	}
+	&__item {
+		float: left;
+		width: 17%;
+		margin: 0 1.5% 4rem;
+	}
+	&__link {
+		text-align: center;
+		text-decoration: none;
+		color: $grey;
+	}
+	&__img {
+		width: 100%;
+		display: block;
+		border: 1px solid #7a7a7a;
+	}
+	&__title {
+		margin-top: 1rem;
+	}
+}

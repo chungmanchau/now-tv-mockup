@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background: url(../images/background-gradient.png);
+	font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    height: 100%;
+    background-size: cover;
+    @include clearfix;
+}
+
+.wrapper {
+
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
