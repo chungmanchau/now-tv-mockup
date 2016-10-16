@@ -478,7 +478,7 @@ ul, li {
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%) translateY(1rem);
-    transition: all 0.2s cubic-bezier(0.71, 0, 0.31, 1) 0.2s; }
+    transition: all 0.2s cubic-bezier(0.71, 0, 0.31, 1) 0.3s; }
   .movies__img {
     width: 100%;
     display: block;

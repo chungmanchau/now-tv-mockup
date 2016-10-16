@@ -1,5 +1,5 @@
 $(function() {
-    $(window).scroll( function(){
+    // $(window).scroll( function(){
         $('.animate').not('.load').each(function(i) {
             var $this = $(this);
             var ind = i * 120;
@@ -13,7 +13,7 @@ $(function() {
                 }, ind);
             }
         });
-    });
+    // });
 });
 
 $(window).on('load', function() {  
