@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -50,3 +51,7 @@ Temporary Items
 bower_components
 node_modules
 .idea
+=======
+.sass-cache/
+*.css.map
+>>>>>>> d8fd753b9a424bd9c73ba028d64b9b1d7bb0771a
