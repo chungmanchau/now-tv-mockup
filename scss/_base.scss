@@ -4,18 +4,21 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-
+    @include bp-md {
+        font-size: 55%;
+    }
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
-    background: url(../images/background-gradient.png);
-	font-family: 'Roboto', sans-serif;
+    background: url(../images/background-gradient.png) center top;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.7rem;
     height: 100%;
-    background-size: cover;
     @include clearfix;
 }
 

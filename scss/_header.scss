@@ -16,7 +16,7 @@ $purple: #650098;
         left: 50%;
         transform: translateX(-50%);
         &--nowtv {
-                width: 12rem;
+            width: 12rem;
 
         }
     }
@@ -29,6 +29,17 @@ $purple: #650098;
                 cursor: pointer;
                 margin-left: 2rem;
                 display: inline-block;
+            }
+            span {
+                @include bp-sm {
+                    display: none;
+                }
+            }
+            .mobile {
+                display: none;
+                @include bp-sm {
+                    display: block;
+                }
             }
         }
     }
