@@ -417,7 +417,8 @@ ul, li {
     .movies__item:hover .movies__img {
       filter: blur(2px); }
     .movies__item:hover .movies__description {
-      opacity: 1; }
+      opacity: 1;
+      transform: translateY(0); }
     .movies__item:hover .movies__overlay {
       transform: translateY(0%); }
     .movies__item:hover .movies__rating {
@@ -461,8 +462,9 @@ ul, li {
     opacity: 0;
     display: block;
     color: #d8d8d8;
-    transition: all 0.4s cubic-bezier(0.71, 0, 0.31, 1) 0.1s;
+    transition: all 0.2s cubic-bezier(0.71, 0, 0.31, 1) 0.25s;
     overflow: hidden;
+    transform: translateY(1rem);
     height: calc(100% - 3rem); }
     .movies__description h4 {
       margin-top: 0;
