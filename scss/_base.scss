@@ -4,6 +4,8 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    height: 100%;
+    background: #10101a;
     @include bp-md {
         font-size: 55%;
     }
@@ -14,7 +16,7 @@ html {
 }
 
 body {
-    background: url(../images/background-gradient.png) center top;
+    background: url(../images/background-gradient.png) center top #10101a;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7rem;
