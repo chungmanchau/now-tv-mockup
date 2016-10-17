@@ -3,5 +3,5 @@
 To run SCSS watch.
 
 ```
-sass --watch scss/styles.scss:css/styles.scss
+sass --watch scss/styles.scss:css/styles.css
 ```
